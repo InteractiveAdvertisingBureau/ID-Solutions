@@ -117,42 +117,42 @@ THE STANDARDS, THE SPECIFICATIONS, THE MEASUREMENT GUIDELINES, AND ANY OTHER MAT
  
 ## Table of Contents
 
-- About this document	
-- Glossary	
-- Introduction: Why Identity Solutions	
-- What are Identity Solutions	
-- Identity	
-- Deterministic vs Probabilistic	
-- Identity Resolution	
-- ID-based Solutions	
-- How are Identity Solutions used	
-- Insights and Campaign Planning	
-- Targeting and Activation	
-- Reporting and Attribution	
-- How are Identity Solutions Enabled	
-- Publisher and Advertisers	
-- Prebid User ID Module	
-- Client Side Javascript Implementation	
-- Server Side Implementation	
-- Identity Resolution / Cross device graphs	
-- Ad Tech Vendors	
-- Example 1 - Buy side Audience Activation in a DSP	
-- Example 2 - Buy side Audience Activation via an SSP using Deal IDs	
-- Data Clean Rooms	
-- Interoperability	
-- Consent and Privacy	
-- How to Evaluate an Identity Solution	
-- Trajectory of dependency on ID components	
-- Scale and Adoption	
-- Quality	
-- Interoperability	
-- Cost	
-- Approach to Privacy	
-- Data Leakage	
-- Use Cases	
-- How to determine ID Solution success	
-- Advertisers	
-- Publishers	
+- [About this document](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#about-this-document)	
+- [Glossary	](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#glossary)
+- [Introduction: Why Identity Solutions	](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#introduction-why-identity-solutions)
+- [What are Identity Solutions](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#what-are-identity-solutions)
+	- [Identity](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#identity)
+	- [Deterministic vs Probabilistic](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#deterministic-vs-probabilistic)	
+	- [Identity Resolution](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#identity-resolution)	
+	- [ID-based Solutions](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#id-based-solutions)	
+- [How are Identity Solutions used](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#how-are-identity-solutions-used)	
+	- [Insights and Campaign Planning](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#insights-and-campaign-planning)	
+	- [Targeting and Activation	](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#targeting-and-activation)
+	- [Reporting and Attribution](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#reporting-and-attribution)	
+- [How are Identity Solutions Enabled](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#how-are-identity-solutions-enabled)	
+	- [Publisher and Advertisers](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#publisher-and-advertisers)	
+		- [Prebid User ID Module](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#prebid-user-id-module)	
+		- [Client Side Javascript Implementation](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#client-side-javascript-implementation)	
+		- [Server Side Implementation](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#server-side-implementation)	
+		- [Identity Resolution / Cross device graphs](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#identity-resolution--cross-device-graphs)	
+	- [Ad Tech Vendors](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#ad-tech-vendors)	
+		- [Example 1 - Buy side Audience Activation in a DSP](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#example-1---buy-side-audience-activation-in-a-dsp)	
+		- [Example 2 - Buy side Audience Activation via an SSP using Deal IDs](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#example-2---buy-side-audience-activation-via-an-ssp-using-deal-ids)	
+	- [Data Clean Rooms](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#data-clean-rooms)	
+	- [Interoperability	](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#interoperability)
+	- [Consent and Privacy](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#consent-and-privacy)	
+- [How to Evaluate an Identity Solution](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#how-to-evaluate-an-identity-solution)	
+	- [Trajectory of dependency on ID components](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#trajectory-of-dependency-on-id-components)	
+	- [Scale and Adoption](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#scale-and-adoption)	
+	- [Quality](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#quality)	
+	- [Interoperability	](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#interoperability-1)
+	- [Cost	](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#cost)
+	- [Approach to Privacy](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#approach-to-privacy)	
+	- [Data Leakage	](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#data-leakage)
+	- [Use Cases](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#use-cases)	
+- [How to determine ID Solution success	](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#how-to-determine-id-solution-success)
+	- [Advertisers](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#advertisers)
+	- [Publishers](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#publishers)
 
 ## Introduction: Why Identity Solutions
 
@@ -163,7 +163,7 @@ The 3rd party cookie, a widely used identifier available on web browsers, has al
 - Deprecation of capability to identify consumers
 - Loss of cardinality in non identifier based signals, e.g. proxying IP address, simplifying User Agent, referrer URL deprecations
 
-Decline in ability to identify consumers and properly group other attributes disrupts the necessary use cases to sustain and grow advertising spend by advertisers. This has far reaching consequences for publisher revenues and implications for advertising technology providers.
+Decline in ability to identify consumers and properly group other attributes disrupts the necessary [use cases](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#how-are-identity-solutions-used) to sustain and grow advertising spend by advertisers. This has far reaching consequences for publisher revenues and implications for advertising technology providers.
 
 At the same time many consumers want and expect personalized ads ([https://yougov.co.uk/consumer/articles/20466-targeting-personalised-ads-right-audience](https://yougov.co.uk/consumer/articles/20466-targeting-personalised-ads-right-audience)). If personalization options are limited on websites, compared to large platforms, then web publishers will be at a disadvantage compared to platforms, and consumers will receive less ad-supported web content.
 
@@ -228,7 +228,7 @@ There are further characteristics that define the nature of an ID solution based
 
 ### Deterministic vs Probabilistic
 
-An ID solution is usually called deterministic or probabilistic based on the components, attributes or methods and techniques applied to derive determination of consumer identity (as described here). Both and sometimes hybrid approaches will help marketers achieve their objectives and may be used in combination.
+An ID solution is usually called deterministic or probabilistic based on the components, attributes or methods and techniques applied to derive determination of consumer identity (as described [here](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#identity)). Both and sometimes hybrid approaches will help marketers achieve their objectives and may be used in combination.
 
 #### Deterministic ID Solution
 
@@ -551,7 +551,7 @@ Below are some of the solutions to enable ID Interoperability
 
 ## How to Evaluate an Identity Solution
 
-As explained in the previous section, enabling and using an ID solution requires investment in integrating and provisioning throughout the supply chain and data operations. It is necessary to properly evaluate an ID solution against multiple dimensions for the intended use case. This section describes some of the common factors (but not a comprehensive set of factors that can vary based on specific needs of a publisher, advertiser or platform) that may be considered when evaluating an ID Solution for deployment.
+As explained in the [previous section](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#how-are-identity-solutions-enabled), enabling and using an ID solution requires investment in integrating and provisioning throughout the supply chain and data operations. It is necessary to properly evaluate an ID solution against multiple dimensions for the intended [use case](https://github.com/InteractiveAdvertisingBureau/ID-Solutions/blob/main/id-solutions-guidance.md#how-are-identity-solutions-used). This section describes some of the common factors (but not a comprehensive set of factors that can vary based on specific needs of a publisher, advertiser or platform) that may be considered when evaluating an ID Solution for deployment.
 
 ### Trajectory of dependency on ID components
 
@@ -658,7 +658,7 @@ Advertisers can also use measurement reporting and analytics for monitoring and 
 - Measure impact on ROAS, brand lift, VCR, other KPIs
 - Impact on reduction of fraud rates as determined by your verification and IVT providers
 
-**Publishers**
+### Publishers
 
 While an increase in overall revenue and CPM remain the ultimate criteria for publishers in evaluating any new investment in technology, here are some other measures that can be monitored to start assessing the success of their investment in ID solutions. Publisher’s might have to work with the supply side platform partners and exchanges to help them gather these insights, alternatively, some ID Solutions offer analytics tools such as a prebid analytics module that can help gather some insights.
 
