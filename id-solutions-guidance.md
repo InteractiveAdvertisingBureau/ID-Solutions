@@ -31,7 +31,7 @@ Abhishek Sen, NumberEight; Anissa Connor, ID5; Brooks Dobbs, The Trade Desk; Chr
 
 Shailley Singh, EVP Product & COO, IAB Tech Lab
 
-Miguel Morales, Director Addressability & Privacy Enhancing Technologies (PETs) 
+Rowena Lam, Senior Director, Privacy & Data, IAB Tech Lab
 
 ### About IAB Tech Lab
 
