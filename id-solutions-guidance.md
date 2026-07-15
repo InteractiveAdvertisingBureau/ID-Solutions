@@ -523,7 +523,7 @@ Below are some of the challenges with ID Interoperability
 
 - IDs based on diverse data sets and algorithms
 - IDs with different definitions of individual and household
-- Ds using probabilistic models with varying thresholds to combine multiple digital identifiers such and HEMs, MAIDs, and IPs
+- IDs using probabilistic models with varying thresholds to combine multiple digital identifiers such and HEMs, MAIDs, and IPs
 - Consumer privacy related methods like Apple’s “hide my email” and other machine generated email tools that manipulate ability to match across contexts.
 
 **Use Cases**
