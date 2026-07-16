@@ -245,7 +245,7 @@ Deterministic vs probabilistic can have its nuance based on the methods applied.
 
 ### Identity Resolution
 
-Identity resolution is not new to digital advertising. Approaches to identity resolution and the vendor landscape have been well established for quite some time, either built in house or provided by a third party (3P). Although reach, scale and precision are affected as privacy changes spread wider, these solutions are still viable. For example, during GDPR roll-out, opt-in rates began around 20% and steadily rose to 60%+ as publishers conveyed the value exchange to their audiences .
+Identity resolution is not new to digital advertising. Approaches to identity resolution and the vendor landscape have been well established for quite some time, either built in house or provided by a third party (3P). Although reach, scale and precision are affected as privacy changes spread wider, these solutions are still viable. For example, during GDPR roll-out, opt-in rates began around 20% and steadily rose to 60%+ as publishers conveyed the value exchange to their audiences[^1].
 
 While an ID solution provides a single specific identifier for an entity across different systems and devices, an identity resolution service matches multiple identifiers across different systems and devices to provide a unified view of an entity through the use of sophisticated algorithms and diverse data sources
 
@@ -339,7 +339,7 @@ Across media planning, activation and measurement, the following categories of i
 
 **On-device**
 
-- Publisher ID (*NOTE: IDs can be translated to Audience  and sent instead of or alongside ID depending on SSP integration approach and DSP instrumentation*)
+- Publisher ID (*NOTE: IDs can be translated to Audience[^2] and sent instead of or alongside ID depending on SSP integration approach and DSP instrumentation*)
 - SDK Vendor ID (*NOTE: IDs can be translated to Audience and sent instead of or alongside ID depending on SSP integration approach and DSP instrumentation*)
 
 **Telecommunications provider**
@@ -673,3 +673,6 @@ While an increase in overall revenue and CPM remain the ultimate criteria for pu
 	  - % Bid Response Rate
 - Measure impact on site load, bounce rate, or other impact on user experience
 - New demand partners added due to ID solution integration
+
+[^1]: If browser or mobile operating system providers restrict the manner in which publishers can communicate the value exchange to their consumer audiences, for e.g. ATT on Apple devices, the opt-in rates can be lower.
+[^2]: An example of this is Google’s Privacy Sandbox/Topics approach with Chrome
